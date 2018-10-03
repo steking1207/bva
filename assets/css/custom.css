@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700");
+a {
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+a img {
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+a img:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8; }
+a:hover {
+  text-decoration: none; }
+
+.content * {
+  font-weight: 300; }
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #c5c5c5; }
+.fixed .progress {
+  background-color: #fff; }
+
+.text-gray-5 {
+  color: #999999; }
+
+select {
+  -moz-appearance: window;
+  -webkit-appearance: none; }
+
+.btn {
+  font-weight: 400; }
+
+.content .btn {
+  -moz-box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.11);
+  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.11); }
+
+.btn-outline-success {
+  border: 1px solid #27ab7f;
+  color: #45c399; }
+.btn-outline-success:hover, .btn-outline-success:active, .btn-outline-success.active {
+  border: 1px solid #27ab7f !important;
+  color: #fff !important; }
+
+.btn-primary {
+  border: 1px solid #2567d9; }
+
+.modal .btn {
+  font-size: 28px; }
+.modal .btn-link {
+  color: #fff; }
+.modal .btn-white {
+  background-color: #fff;
+  color: #3f85ff; }
+
+[class^="icon-"], [class*="icon-"] {
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  vertical-align: middle;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.icon-arw-left {
+  width: 15px;
+  height: 25px;
+  background-image: url("../img/ui/icon-arw-left-primary.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .icon-arw-left {
+    background-image: url("../img/ui/icon-arw-left-primary@2x.png");
+    -moz-background-size: 15px, 25px;
+    -o-background-size: 15px, 25px;
+    -webkit-background-size: 15px, 25px;
+    background-size: 15px, 25px; } }
+
+.icon-arw-right {
+  width: 15px;
+  height: 25px;
+  background-image: url("../img/ui/icon-arw-right-primary.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .icon-arw-right {
+    background-image: url("../img/ui/icon-arw-right-primary@2x.png");
+    -moz-background-size: 15px, 25px;
+    -o-background-size: 15px, 25px;
+    -webkit-background-size: 15px, 25px;
+    background-size: 15px, 25px; } }
+
+.btn:hover .icon-arw-left, .btn:active .icon-arw-left, .btn.active .icon-arw-left {
+  background-image: url("../img/ui/icon-arw-left-white.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .btn:hover .icon-arw-left, .btn:active .icon-arw-left, .btn.active .icon-arw-left {
+    background-image: url("../img/ui/icon-arw-left-white@2x.png");
+    -moz-background-size: 15px, 25px;
+    -o-background-size: 15px, 25px;
+    -webkit-background-size: 15px, 25px;
+    background-size: 15px, 25px; } }
+.btn:hover .icon-arw-right, .btn:active .icon-arw-right, .btn.active .icon-arw-right {
+  background-image: url("../img/ui/icon-arw-right-white.png"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 1.25dppx), only screen and (min-resolution: 2dppx) {
+  .btn:hover .icon-arw-right, .btn:active .icon-arw-right, .btn.active .icon-arw-right {
+    background-image: url("../img/ui/icon-arw-right-white@2x.png");
+    -moz-background-size: 15px, 25px;
+    -o-background-size: 15px, 25px;
+    -webkit-background-size: 15px, 25px;
+    background-size: 15px, 25px; } }
+
+.bg-white {
+  background-color: #fff !important; }
+
+.bg-black {
+  background-color: #000;
+  color: #fff; }
+
+.modal-dialog {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto; }
+@media (max-width: 768px) {
+  .modal-dialog {
+    min-height: calc(100vh - 20px); } }
