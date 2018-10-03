@@ -39,7 +39,7 @@ select {
 .btn {
   font-weight: 400; }
 
-.content .btn {
+.bs {
   -moz-box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.11);
   -webkit-box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.11);
   box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.11); }
