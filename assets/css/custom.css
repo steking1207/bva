@@ -33,6 +33,9 @@ select {
   -moz-appearance: window;
   -webkit-appearance: none; }
 
+.custom-control {
+  margin-bottom: .2rem; }
+
 .btn {
   font-weight: 400; }
 
