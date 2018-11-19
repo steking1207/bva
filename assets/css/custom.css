@@ -118,6 +118,12 @@ select {
     -webkit-background-size: 15px, 25px;
     background-size: 15px, 25px; } }
 
+.section-done {
+  padding: 180px 0; }
+@media (max-width: 991.98px) {
+  .section-done {
+    padding: 100px 0; } }
+
 .bg-white {
   background-color: #fff !important; }
 
